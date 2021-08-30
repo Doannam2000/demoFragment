@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1644CC"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FragmentB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/data"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment B"
+        android:textColor="#fff"
+        android:textSize="30sp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/goGlobalb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chuyển đến fragment global"/>
+</LinearLayout>
